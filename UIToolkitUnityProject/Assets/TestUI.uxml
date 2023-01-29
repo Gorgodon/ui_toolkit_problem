@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <uie:PropertyField binding-path="variableA" style="flex-grow: 1;" />
+    <uie:PropertyField binding-path="variableB" style="flex-grow: 1;" />
+    <ui:VisualElement style="background-color: rgb(49, 49, 49); min-height: 2px; margin-top: 4px; margin-bottom: 4px;" />
+    <ui:VisualElement style="flex-direction: row;">
+        <uie:PropertyField binding-path="variableA" />
+        <uie:PropertyField binding-path="variableB" style="flex-grow: 1;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="background-color: rgb(49, 49, 49); min-height: 2px; margin-top: 4px; margin-bottom: 4px;" />
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:FloatField label="Variable A" value="42.2" binding-path="variableA" style="flex-grow: 1;" />
+        <ui:FloatField label="Variable B" value="42.2" binding-path="variableB" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
